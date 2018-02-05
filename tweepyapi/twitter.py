@@ -8,10 +8,10 @@ import io
 from google.cloud import vision
 from google.cloud.vision import types
  
-consumer_key = "l9ogUMvrMxBECaFqXvrlyWfX8"
-consumer_secret = "YVILwNXqerV9ucUzprvfmSeNU6i89QnNRqYHhi2J4zA4AgKixB"
-access_token = "920695657740013568-04EYTz7rqWRWRuSKy0jiSEZxS5fHuLV"
-access_secret = "aHisrtBZFuqkCjB4z3i6L224de1GzcsKI8ZyVioe9AgoX"
+consumer_key = "x"
+consumer_secret = "x"
+access_token = "x"
+access_secret = "x"
  
 @classmethod
 def parse(cls, api, raw):
