@@ -15,3 +15,8 @@ credential-keys json file, and export it in your environment.<br>
 4, Run the python file. You better put the python file in an empty folder. And change the path you download the photos to the
 path you want. The photos will be downloaded and an output.mp4 and a labels.txt will be created, which has the descriptions of
 the 10 photos you downloaded one by one.<br>
+
+Note:
+====
+Sometimes when the height or the width of the photos cannot be divided by 2, it will come up with an error. To be faster to solve this problem, just try again and download another set of photos, until it works, thx.
+
