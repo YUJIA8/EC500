@@ -1,0 +1,84 @@
+Labels:
+metropolitan area
+advertising
+landmark
+city
+metropolis
+urban area
+building
+downtown
+street
+car
+Labels:
+tree
+man
+sky
+woody plant
+vacation
+male
+water
+plant
+fun
+recreation
+Labels:
+product
+liquid
+product
+water
+bottle
+Labels:
+black
+photograph
+black and white
+darkness
+monochrome photography
+photography
+audio equipment
+monochrome
+phenomenon
+audio
+Labels:
+interaction
+event
+song
+midnight
+Labels:
+man
+male
+t shirt
+gentleman
+facial hair
+socialite
+product
+Labels:
+text
+picture frame
+font
+paper
+calligraphy
+Labels:
+man
+t shirt
+standing
+shoulder
+muscle
+bodybuilding
+male
+chin
+chest
+arm
+Labels:
+footwear
+shoe
+sneakers
+outdoor shoe
+product
+Labels:
+phenomenon
+visual effects
+pc game
+computer wallpaper
+film
+advertising
+font
+graphics
