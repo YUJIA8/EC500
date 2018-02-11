@@ -18,5 +18,7 @@ the 10 photos you downloaded one by one.<br>
 
 Note:
 ====
-Sometimes when the height or the width of the photos cannot be divided by 2, it will come up with an error. To be faster to solve this problem, just try again and download another set of photos, until it works, thx.
+1, Sometimes when the height or the width of the photos cannot be divided by 2, it will come up with an error. To be faster to solve this problem, just try again and download another set of photos, until it works, thx.<br>
+2, remember to export your credentials-- in your terminal, type in "export GOOGLE_APPLICATION_CREDENTIALS="key.json"", make sure your key.json file is in your folder which has this python file.
+
 
