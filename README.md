@@ -1,7 +1,7 @@
 # EC500
 This repository is for EC500
 
-# Code Review
+# Code Review for tweepyapi
 Yujia's program can achieve the main functions of this task. By running this program, it can download 10 photos from a specific twitter ID by tweepy API, then transform them into a video by FFMPEG API, and get the characteristics of those pictures by Google Vision API. The code is clear and easy to read. But there are still some problems.
 
 1. The video you produced with pictures, some pictures in your video cannot maintain their original length-width ratio, instead, some of the pictures has changed their shape.
