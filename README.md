@@ -15,7 +15,7 @@ to remind the users to change this part of code to their own folder path.
 3. In a specific twitter, if there are more than one photo, then this program can only download the first photo, other photos will not be downloaded in the folder or be included in the video.
 So the main call is asynchronous.
 
-4. If I run the program again for the same twitter ID in the same folder, the new-downloaded-picture will cover the old ones if there are more than five photo-containing-twitters in that twitter ID.
+4. If I run the program again for the same twitter ID in the same folder, the new-downloaded-picture will cover the old ones \n if there are more than \n five photo-containing-twitters in that twitter ID.
 
 5. If the twitter ID that the user want to use to run this program has more than 10 photo-containing-twitters, then the program will report an error:
 ###### Traceback (most recent call last):
