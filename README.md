@@ -7,12 +7,10 @@ Yujia's program can achieve the main functions of this task. By running this pro
 1. The video you produced with pictures, some pictures in your video cannot maintain their original length-width ratio, instead, some of the pictures has changed their shape.
 
 2. It's if thoughtful of you that you used "X" to remind the user to change those "X" parts into their own consumer_key, consumer_secret, access_key and access_secret. But I think you should also change this part of your code:
-    os.system("ffmpeg -framerate 5 -pattern_type glob -i '*.jpg'     -c:v libx264 -r 30 -pix_fmt yuv420p production.mp4")
-
-  
+    f = open('/home/ec602/Desktop/twitter/labels.txt','w+')
 to something like:
-  f = open('/your/folder/path/labels.txt','w+')
+    f = open('/your/folder/path/labels.txt','w+')
 to remind the users to change this part of code to their own folder path.
 
-Thirdly, in a specific twitter, if there are more than one photos, then this program can only download the first photo, other photos will not be downloaded in the folder or be included in the video.
+3. In a specific twitter, if there are more than one photos, then this program can only download the first photo, other photos will not be downloaded in the folder or be included in the video.
 So the main call is asynchronous.
