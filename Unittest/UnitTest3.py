@@ -7,7 +7,7 @@ import os
 
 class Test3(unittest.TestCase):
 	
-	def test_label(self):
+	def test_whether_save_label(self):
 		num = 0
 		os.system("twitterWYJ.py")
 		for file in os.listdir('.'):
@@ -26,7 +26,5 @@ class Test3(unittest.TestCase):
 
 
 		
-
-	
 if __name__ == '__main__': 
 		unittest.main() 
