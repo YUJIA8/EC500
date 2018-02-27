@@ -14,7 +14,7 @@ class Test1(unittest.TestCase):
 		totaltime = end - begin
 		print('The running time of you program is ' + str(totaltime) + '.')
 		try:
-			self.assertLess(totaltime,10)
+			self.assertLess(totaltime,0.0028)
 			print('You have passed the Test1! Congratulations!')
 		except:
 			print('Your running time is too long! Improve your code and try again!')
