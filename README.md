@@ -26,4 +26,11 @@ which means that this program can only deal with twitter ID who contain less tha
 
 ## Unittest
 
+For the unittest part, I wrote 3 unittest programs to test Yujia's mini project. 
+The first test program, whose name is "UnitTest1.py", is to test whether the program have successfully created the ".mp4" video file. 
+The second test program, whose name is "UnitTest2.py", is to test whether the program have successfully created the ".txt" document file to record the labels of the pictures using Google Vision API. 
+The third test program, whose name is "UnitTest3.py", is to test the running time of the program.
+
+As the result shows, Yujia's program can creat the ".mp4" video file which contain at most first 10 pictures in a specific twitter account so it passed the first test; and the program can use Google Vision API and record the labels in a ".txt" file; but the program cannot pass the third test because it runs not fast enough.  
+
 ## Web Application
