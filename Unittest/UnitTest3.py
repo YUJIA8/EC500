@@ -5,26 +5,20 @@ import time
 import os
 
 
-class Test3(unittest.TestCase):
-	
-	def test_whether_save_label(self):
-		num = 0
+class Test1(unittest.TestCase):
+
+	def test_running_time(self):
+		begin = time.time()
 		os.system("twitterWYJ.py")
-		for file in os.listdir('.'):
-			if file.endswith('txt'):
-				num = num + 1
-		print('The amount of ".txt" file you have created is ' + str(num) + '.')
+		end = time.time()
+		totaltime = end - begin
+		print('The running time of you program is ' + str(totaltime) + '.')
 		try:
-			self.assertEqual(num,1)
-			print('You have passed the Test3! Congratulations!')
+			self.assertLess(totaltime,0.0028)
+			print('You have passed the Test1! Congratulations!')
 		except:
-			try:
-				self.assertGreater(num,1)
-				print('You have created more than one ".txt" files! Review your code and try again!')
-			except:
-				print('You have not created any ".txt" file! Review your code and try again!')		
+			print('Your running time is too long! Improve your code and try again!')
 
-
-		
+	
 if __name__ == '__main__': 
 		unittest.main() 

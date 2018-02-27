@@ -5,19 +5,25 @@ import time
 import os
 
 
-class Test1(unittest.TestCase):
-
-	def test_running_time(self):
-		begin = time.time()
+class Test2(unittest.TestCase):
+	
+	def test_whether_have_mp4(self):
+		num = 0
 		os.system("twitterWYJ.py")
-		end = time.time()
-		totaltime = end - begin
-		print('The running time of you program is ' + str(totaltime) + '.')
+		for file in os.listdir('.'):
+			if file.endswith('mp4'):
+				num = num + 1
+		print('The amount of ".mp4" video file you have created is ' + str(num) + '.')
 		try:
-			self.assertLess(totaltime,0.0028)
-			print('You have passed the Test1! Congratulations!')
+			self.assertEqual(num,1)
+			print('You have passed the Test2! Congratulations!')
 		except:
-			print('Your running time is too long! Improve your code and try again!')
+			try:
+				self.assertGreater(num,1)
+				print('You have created more than one ".mpt" files! Review your code and try again!')
+			except:
+				print('You have not created any ".mp4" file! Review your code and try again!')
+
 
 	
 if __name__ == '__main__': 
